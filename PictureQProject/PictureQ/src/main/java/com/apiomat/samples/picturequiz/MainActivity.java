@@ -34,6 +34,7 @@ public class MainActivity extends Activity {
     private List<Riddle> riddles;
     private Riddle activeRiddle;
     static Random r = new Random();
+    final User u = new User();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,7 +47,7 @@ public class MainActivity extends Activity {
 
         String android_id = Settings.Secure.getString(getContentResolver(), Settings.Secure.ANDROID_ID);
 
-        final User u = new User();
+
         u.setUserName(android_id);
         u.setPassword("test");
 
@@ -61,14 +62,12 @@ public class MainActivity extends Activity {
                         }
                     });
 
-                }
-                else{
+                } else {
                     loadRiddles();
                 }
 
             }
         });
-
 
 
     }
@@ -83,14 +82,13 @@ public class MainActivity extends Activity {
         });
     }
 
-    public void setNewRiddle(){
+    public void setNewRiddle() {
         int length = riddles.size();
-        int random =r.nextInt(length);
-        Log.i(TAG,"size of i" + random);
-        activeRiddle=riddles.get(random);
-        String[] images = {activeRiddle.getPic1URL( 50,50,"000000",null,"png"),activeRiddle.getPic2URL( 100,100,"ffffff",null,null),activeRiddle.getPic3URL( 200,200,"ffffff",null,"jpg") };
+        int random = r.nextInt(length);
+        Log.i(TAG, "random= " + random);
+        activeRiddle = riddles.get(random);
+        String[] images = {activeRiddle.getPic1URL(200, 200, "000000", null, "png"), activeRiddle.getPic2URL(200, 200, "ffffff", null, null), activeRiddle.getPic3URL(200, 200, "ffffff", null, "jpg")};
         loadImages(images);
-
 
     }
 
@@ -107,13 +105,12 @@ public class MainActivity extends Activity {
     }
 
     public void solve(View view) {
-        EditText editText =  (EditText)findViewById(R.id.inputField);
-        if(editText.getText().toString().equalsIgnoreCase(activeRiddle.getSolution())){
-            Toast.makeText(this,"toll",Toast.LENGTH_LONG).show();
+        EditText editText = (EditText) findViewById(R.id.inputField);
+        if (editText.getText().toString().equalsIgnoreCase(activeRiddle.getSolution())) {
+            Toast.makeText(this, "toll", Toast.LENGTH_LONG).show();
             setNewRiddle();
-        }
-        else{
-            Toast.makeText(this,"leider falsch",Toast.LENGTH_LONG).show();
+        } else {
+            Toast.makeText(this, "leider falsch", Toast.LENGTH_LONG).show();
 
         }
     }
