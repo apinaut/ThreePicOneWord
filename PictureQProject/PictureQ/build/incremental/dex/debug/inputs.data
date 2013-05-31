@@ -1,0 +1,16 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1369994588000 484258 bd6479f5dd592790607e0504e66e0f31c2b4d308 /Users/phimi/Development/ApiOMat/AOMServer/PictureQProject/PictureQ/libs/android-support-v4.jar
+1369996919000 442 57627463d44b076034c9a47773e6ca2e36a155c6 /Users/phimi/Development/ApiOMat/AOMServer/PictureQProject/PictureQ/build/classes/debug/com/apiomat/samples/picturequiz/R$layout.class
+1369996919000 427 fb05b2b9e8de911df71ce8540c13754e131a0f5c /Users/phimi/Development/ApiOMat/AOMServer/PictureQProject/PictureQ/build/classes/debug/com/apiomat/samples/picturequiz/R$menu.class
+1369994606000 446 1aa4ea887096fa6435bb26db7836384fcc919732 /Users/phimi/Development/ApiOMat/AOMServer/PictureQProject/PictureQ/build/classes/debug/com/apiomat/samples/picturequiz/R$drawable.class
+1369996919000 511 ab8870ca7984e19c71455a261627b9a0e19c97de /Users/phimi/Development/ApiOMat/AOMServer/PictureQProject/PictureQ/build/classes/debug/com/apiomat/samples/picturequiz/R$string.class
+1369994606000 379 4b140cf49eb14845a1f6e401fe2cbf1f496864cf /Users/phimi/Development/ApiOMat/AOMServer/PictureQProject/PictureQ/build/classes/debug/com/apiomat/samples/picturequiz/R$attr.class
+1369994606000 500 fc1d01b6f18dfff69e8b2496476f17e5bda10b2d /Users/phimi/Development/ApiOMat/AOMServer/PictureQProject/PictureQ/build/classes/debug/com/apiomat/samples/picturequiz/R$dimen.class
+1369995896000 2036 cd8ded28fc5ce811371b007e796d55026582ea84 /Users/phimi/Development/ApiOMat/AOMServer/PictureQProject/PictureQ/build/classes/debug/com/apiomat/samples/picturequiz/LoadImageTask.class
+1369996919000 807 1072b440f53a5253dd94a77feec80877741fdc92 /Users/phimi/Development/ApiOMat/AOMServer/PictureQProject/PictureQ/build/classes/debug/com/apiomat/samples/picturequiz/R.class
+1369996919000 596 a20cccfe0894df7e8ab97548236fe9e7c294367c /Users/phimi/Development/ApiOMat/AOMServer/PictureQProject/PictureQ/build/classes/debug/com/apiomat/samples/picturequiz/R$id.class
+1369996919000 1704 2385ed0f483b342f5bc624d89c7d78fe6d85bf2b /Users/phimi/Development/ApiOMat/AOMServer/PictureQProject/PictureQ/build/classes/debug/com/apiomat/samples/picturequiz/MainActivity.class
+1369994606000 371 4cde63927418b6d63a4647e0d07068ab3de99085 /Users/phimi/Development/ApiOMat/AOMServer/PictureQProject/PictureQ/build/classes/debug/com/apiomat/samples/picturequiz/BuildConfig.class
+1369996919000 470 3c9931d50fad8ceae94805fb8aafaa7c2e7d63f4 /Users/phimi/Development/ApiOMat/AOMServer/PictureQProject/PictureQ/build/classes/debug/com/apiomat/samples/picturequiz/R$style.class

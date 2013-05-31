@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PictureQ/PictureQ.iml" filepath="$PROJECT_DIR$/PictureQ/PictureQ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PictureQProject.iml" filepath="$PROJECT_DIR$/PictureQProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PictureQ/build/source/buildConfig/buildConfig.iml" filepath="$PROJECT_DIR$/PictureQ/build/source/buildConfig/buildConfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PictureQ/build/manifests/debug/debug.iml" filepath="$PROJECT_DIR$/PictureQ/build/manifests/debug/debug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PictureQ/src/main/main.iml" filepath="$PROJECT_DIR$/PictureQ/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PictureQ/build/source/r/r.iml" filepath="$PROJECT_DIR$/PictureQ/build/source/r/r.iml" />
+    </modules>
+  </component>
+</project>
+
